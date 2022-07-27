@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Zelda';
+    src: url(../font/special/Zelda.otf);
+}
+
+@font-face {
+    font-family: 'CalibriRegular';
+    src: url(../font/calibri_font/CalibriRegular.ttf);
+}
