@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
-    <h1>Hello world</h1>
-    <a href="index.php"><h1>RETOUR</h1></a>
+    <?php include("enTete.html") ?>
+    <main>
+        <div class="CorpDePage">
+            <h1>Hello world</h1>
+            <a href="../Maquette_site/index.php">Projet de fin de 1ere année en BTS SIO</a>
+            <a href="index.php"><h1>RETOUR</h1></a>
+            
+        </div>
+    </main>
+    <?php include("piedDePage.html") ?>
 </body>
 </html>
