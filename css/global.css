@@ -1,10 +1,10 @@
 body{
     font-family: 'CalibriRegular';
-    margin: 0;
+    margin: 0;/*supprime les espace entre les bord de l'ecrant et le reste. De base il est a 8*/
     background-image: url(../img/jpg/pexels-marc-mueller-380769.jpg);
     background-size:cover;
     background-attachment: fixed;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);/*ajoute un effet de flout a la baliser ciblé*/
 }
 
 a:link, a:visited,  a:hover, a:active
@@ -14,8 +14,8 @@ a:link, a:visited,  a:hover, a:active
 
 .CorpDePage{
     background-color: white;
-    filter: opacity(95%);
-    border-radius: 25px;
+    filter: opacity(95%);/*ajoute un effet de transparense*/
+    border-radius: 25px;/*arrondi les angle, attention a ne pas utiliser %*/
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 10%;
@@ -43,27 +43,7 @@ a:link, a:visited,  a:hover, a:active
     width: 100%;
 }
 
-/*
-.OptionBH{
-    border: 1px solid black;
-    display: table-cell;
-    background-color: rgb(174, 60, 60);
-    color: white;
-    font-size: large;
-    width: 20%;
-    height: inherit;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#bouttonBH{
-    justify-content: center;
-    background-color: red;
-    height: 50px;
-}
-*/
-
-.OptionBH{
+.OptionBH{/*Parametre de rendu des <td>*/
     background-color: rgb(117, 0, 0);
     border: 2px solid white;
     color: white;
@@ -74,11 +54,12 @@ a:link, a:visited,  a:hover, a:active
     margin-top: 25px;
 }
 
+/*hover:quand la souris passe sur l'element ciblé, les parementre défini son affecter un direct*/
 .OptionBH:hover{
     background-color: rgb(146, 51, 51);
 }
 
-.OptTxtBH{
+.OptTxtBH{/*Fais principalement en sort de center le texte dans la <div>*/
     height: 100%;
     width: 100%;
     color: white;
@@ -92,13 +73,13 @@ a:link, a:visited,  a:hover, a:active
     font-weight: bolder;
 }
 
-#bandeOpt{
+#bandeOpt{/*paramentre complementaire*/
     position: sticky;
-    top: 0px;
-    z-index: 10;
+    top: 0px;/*sticky est pris en compte a partir de 0px*/
+    z-index: 10;/*défini l'élément a 10 crant au dessus du reste*/
 }
 
-#bouttonBH{
+#bouttonBH{/*Centre la table*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,9 +96,9 @@ a:link, a:visited,  a:hover, a:active
     visibility: hidden;
 }
 
-#enTeteBH{
+#enTeteBH{/*Centre les element*/
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;/*Verticalement*/
+    justify-content: center;/*Horizontalement*/
 }
 
