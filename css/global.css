@@ -90,7 +90,6 @@ a:link, a:visited,  a:hover, a:active
 .ContactIcon{
     height: 15%;
     width: 15%;
-    fill: opacity(0);
 }
 
 .ContactIcon[name="CV"]{
@@ -106,6 +105,32 @@ a:link, a:visited,  a:hover, a:active
     width: 33%;
 }
 
+/*
+Pour effectuer une transition méga stylé il faut utiliser transition et :hover.
+Voir pour exemple les deux class si dessous.S 
+*/
+.LigneProjet {
+    background-color: #dfdede;
+    color: black;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+    overflow: hidden;
+    transition: max-height 1s, background-color 0.5s, transform 2s;/*Parametre l'animation*/
+    max-height: 60px;/*hauteur initial*/
+}
+
+.LigneProjet:hover{
+    background-color: #bdbdbd;
+    max-height: 1000px;/*Hauteur max possible*/
+}
+
+.LgnProjTitre{
+    border-bottom: black solid 2px;
+}
 #bandeOpt{/*paramentre complementaire*/
     position: sticky;
     top: 0px;/*sticky est pris en compte a partir de 0px*/
@@ -140,3 +165,7 @@ Site utile vue
 
 https://www.alsacreations.com/astuce/lire/22-Comment-fixer-un-pied-au-bas-de-la-page-.html
 */
+
+.test[balise="h3"]{
+    background-color: yellowgreen;
+}

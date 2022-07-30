@@ -12,10 +12,26 @@
     <?php include("enTete.html") ?>
     <main>
         <div class="CorpDePage">
-            <h1>Hello world</h1>
-            <a href="../Maquette_site/index.php">Projet de fin de 1ere année en BTS SIO</a>
-            <a href="index.php"><h1>RETOUR</h1></a>
+            <h1>Mes Projets</h1>
+            <a href="../Maquette_site/index.php">
+                <div class="LigneProjet">
+                    <h3 class="LgnProjTitre">Projet de fin de premiere année de BTS SIO</h3>
+                    <p class="LgnProjDescription">
+                        test<br>
+                        test<br>
+                        test<br>
+                    </p>
+                </div>
+            </a>
+            <a href="test.html">
+                <div class="LigneProjet">
+                    <h3 class="LgnProjTitre">Page test</h3>
+                    <img src="img/jpg/285348.jpg" alt="">
+                </div>
+            </a>
+
             
+            <a href="index.php"><h1>RETOUR</h1></a>
         </div>
     </main>
     <?php include("piedDePage.html") ?>
