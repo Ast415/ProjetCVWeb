@@ -24,6 +24,8 @@
                 Vous y retrouvrer donc aussi mon parcour scolaire et professionnelle, 
                 mes loisir, mes centre d'intérer et un presentation de moi même.
             </p>
+            <h2>Recherche actuellement</h2>
+            <p>Un stage en dévellopement web et/ou logiciel pour ma seconde période de stage en BTS SIO.</p>
             <h2>Me contacter</h2>
             <table class="AlignElement">
                 <tr>
@@ -43,7 +45,7 @@
                         Email : bastienbories81pro@gmail.com
                     </td>
                     <td class="TdIcon">
-                        Arrive bientot
+                        Bientot disponible
                     </td>
                     <td class="TdIcon">
                         N° 07 81 87 88 97
