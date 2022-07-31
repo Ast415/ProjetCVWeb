@@ -105,9 +105,16 @@ a:link, a:visited,  a:hover, a:active
     width: 33%;
 }
 
+.IconeFlecheBas{
+    position: absolute;
+    display: inline-block;
+    height: 22.4px;
+    right: 0;
+}
+
 /*
 Pour effectuer une transition méga stylé il faut utiliser transition et :hover.
-Voir pour exemple les deux class si dessous.S 
+Voir pour exemple les deux class si dessous.
 */
 .LigneProjet {
     background-color: #dfdede;
@@ -119,8 +126,8 @@ Voir pour exemple les deux class si dessous.S
     padding-right: 5%;
     margin-top: 1%;
     overflow: hidden;
-    transition: max-height 1s, background-color 0.5s, transform 2s;/*Parametre l'animation*/
-    max-height: 60px;/*hauteur initial*/
+    transition: max-height 2s, background-color 0.5s, transform 2s;/*Parametre l'animation*/
+    max-height: 63px;/*hauteur initial*/
 }
 
 .LigneProjet:hover{
@@ -130,6 +137,7 @@ Voir pour exemple les deux class si dessous.S
 
 .LgnProjTitre{
     border-bottom: black solid 2px;
+    position: relative;
 }
 #bandeOpt{/*paramentre complementaire*/
     position: sticky;
