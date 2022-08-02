@@ -139,6 +139,46 @@ Voir pour exemple les deux class si dessous.
     border-bottom: black solid 2px;
     position: relative;
 }
+
+.TdFormulaire{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.TdFormulaire[name="left"]{
+    border-right: rgb(37, 37, 37) solid 1px;
+}
+
+.InputFormulaire{
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #dfdede;
+    transition: border-color 0.5s;
+    border: #dfdede solid 2px;
+}
+
+.InputFormulaire:hover{
+    border-color: black;
+}
+
+#submitFormulaire{
+    text-align: right;
+}
+
+#resetFormulaire{
+    text-align: left;
+}
+
+#textareaForm{
+    resize: vertical;
+    overflow: auto;
+    min-height: 450px;
+}
+
 #bandeOpt{/*paramentre complementaire*/
     position: sticky;
     top: 0px;/*sticky est pris en compte a partir de 0px*/
@@ -173,7 +213,3 @@ Site utile vue
 
 https://www.alsacreations.com/astuce/lire/22-Comment-fixer-un-pied-au-bas-de-la-page-.html
 */
-
-.test[balise="h3"]{
-    background-color: yellowgreen;
-}

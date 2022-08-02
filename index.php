@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td class="TdIcon">
-                        Email : bastienbories81pro@gmail.com
+                        <a href="formulaireEmail.php">Email : bastienbories81pro@gmail.com</a>
                     </td>
                     <td class="TdIcon">
                         Bientot disponible
