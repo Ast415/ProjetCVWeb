@@ -162,12 +162,22 @@ Voir pour exemple les deux class si dessous.
     border-color: black;
 }
 
-#submitFormulaire{
-    text-align: right;
+.SubmitForm{
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(117, 0, 0);
+    cursor: pointer;/*Modifie l'apparence de la souris*/
+    transition: background-color 0.2s;
 }
 
-#resetFormulaire{
-    text-align: left;
+.SubmitForm:hover{
+    background-color: rgb(146, 51, 51);
 }
 
 #textareaForm{
