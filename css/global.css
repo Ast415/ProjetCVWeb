@@ -42,13 +42,36 @@ a:link, a:visited,  a:hover, a:active
 
 .BanniereHaut{
     background-color: rgb(117, 0, 0);
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
-.PpType1{
-    width: 50%;
-    border-radius: 100%;
-    float:none;
-    
+/*BH : BanniereHaut*/
+
+.PpBH{
+    width: 10%;
+    border-radius: 50%;
+    transition: width 0.5s, margin-right 0.5s;
+}
+
+.PpBH:hover{
+    width: 13%;
+    margin-right: -3%;
+}
+
+.PpBH[name="hidden"]{
+    visibility: hidden;
+}
+
+.TitreBH{
+    margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .BanniereBas{
@@ -78,10 +101,10 @@ a:link, a:visited,  a:hover, a:active
     height: 100%;
     width: 100%;
     color: white;
-    font-size: large;
-    position: relative;
-    top: 25%;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .ContactIcon{
@@ -205,7 +228,7 @@ Voir pour exemple les deux class si dessous.
     text-align: center;
 }
 
-#ppOpposé{
+#pOppose{
     float: right;
     visibility: hidden;
 }
