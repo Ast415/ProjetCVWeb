@@ -84,12 +84,12 @@ a:link, a:visited,  a:hover, a:active
     background-color: rgb(117, 0, 0);
     border: 2px solid white;
     color: white;
-    font-size: large;
     text-align: center;
     width: 10%;
     height: 50px;
     margin-top: 25px;
-    transition: background-color 0.2s;
+    font-size: large;
+    transition: background-color 0.2s,;
 }
 
 /*hover:quand la souris passe sur l'element ciblé, les parementre défini son affecter un direct*/
@@ -107,22 +107,26 @@ a:link, a:visited,  a:hover, a:active
     overflow: hidden;
 }
 
-.ContactIcon{
-    height: 15%;
-    width: 15%;
+.LigneContact{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5vh;
 }
 
-.ContactIcon[name="CV"]{
-    height: 10%;
-    width: 10%;
+.ColoneContact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.IcoContact{
+    width: 20%;
 }
 
 .AlignElement{
     text-align: center;
-}
-
-.TdIcon{
-    width: 33%;
 }
 
 .IconeFlecheBas{
@@ -238,6 +242,7 @@ Voir pour exemple les deux class si dessous.
     align-items: center;/*Verticalement*/
     justify-content: center;/*Horizontalement*/
 }
+
 
 /*
 Site utile vue

@@ -27,34 +27,35 @@
             <h2>Recherche actuellement</h2>
             <p>Un stage en dévellopement web et/ou logiciel pour ma seconde période de stage en BTS SIO.</p>
             <h2>Me contacter</h2>
-            <table class="AlignElement">
-                <tr>
-                    <td class="TdIcon">
-                        <img src="img/png/gmail.png" alt="" class="ContactIcon">
-                    </td>
-                    <td class="TdIcon">
-                        <img src="img/png/linkedin.png" alt="" class="ContactIcon">
-                        
-                    </td>
-                    <td class="TdIcon">
-                        <img src="img/png/telephone.png" alt="" class="ContactIcon">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="TdIcon">
-                        <a href="formulaireEmail.php">Email : bastienbories81pro@gmail.com</a>
-                    </td>
-                    <td class="TdIcon">
-                        Bientot disponible
-                    </td>
-                    <td class="TdIcon">
-                        N° 07 81 87 88 97
-                    </td>
-                </tr>
-            </table>
+            
+            <div>
+                <div class="LigneContact">
+                    <div class="ColoneContact">
+                        <img src="img/png/gmail.png" alt="" class="IcoContact">
+                    </div>
+                    <div class="ColoneContact">
+                        <img src="img/png/linkedin.png" alt="" class="IcoContact">
+                    </div>
+                    <div class="ColoneContact">
+                        <img src="img/png/telephone.png" alt="" class="IcoContact">
+                    </div>
+                </div>
+                <div class="LigneContact">
+                    <div class="ColoneContact">
+                        <p>bastienbories81@gmail.com</p>
+                    </div>
+                    <div class="ColoneContact">
+                        <p>Arrive bientot</p>
+                    </div>
+                    <div class="ColoneContact">
+                        <p>N° 07 81 87 88 97</p>
+                    </div>
+                </div>
+            </div>
+
             <h2>Télécharger mon CV</h2>
             <p class="AlignElement">
-                <a href="doc/pdf/BORIES Bastien - CV.pdf"><img src="img/png/cv.png" alt="" class="ContactIcon" name="CV"></a>
+                <a href="doc/pdf/BORIES Bastien - CV.pdf"><img src="img/png/cv.png" alt="" class="IcoContact"></a>
             </p>
             
         </div>
