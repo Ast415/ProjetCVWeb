@@ -6,20 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
-    <div style="background-color: white;height: 30%;display: flex;align-items: center;position: relative;justify-content: center;">
-        <img src="img/jpg/pp1.jpg" alt="" style="max-height: 100%;position: absolute;right: 70%;">
-        <h1>Titre</h1>
+    <div class="CorpDePage">
+        <style>
+            .I{
+                width: 20%;
+            }
+
+            .DivS{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                align-items: center;
+                width: 100%;
+            }
+
+            #divP{
+                display: flex;
+                justify-content: space-evenly;
+                font-size: 2.5vh;
+            }
+        </style>
+        <br>
+        <div id="divP">
+            <div class="DivS">
+                <img src="img/png/gmail.png" alt="" class="I">
+            </div>
+            <div class="DivS">
+                <img src="img/png/linkedin.png" alt="" class="I">
+            </div>
+            <div class="DivS">
+                <img src="img/png/telephone.png" alt="" class="I">
+            </div>
+        </div>
+        
+        <div id="divP">
+            <div class="DivS" id="divS2">
+                <p>email : bastienbories81@gmail.com</p>
+            </div>
+            <div class="DivS" id="divS2">
+                <p>Arrive bientot</p>
+                
+            </div>
+            <div class="DivS" id="divS2">
+                <p>N° 07 81 87 88 97</p>
+            </div>
+        </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <div style="background-color: rgb(92, 40, 40);display: flex;align-items: center;position: relative;justify-content: space-evenly;padding-top: 20px;padding-bottom: 20px;">
-        <img src="img/jpg/pp1.jpg" alt="" style="width: 10%; border-radius: 50%;">
-        <h1 style="margin: 0; text-align: center;">CV Web de BORIES Bastien</h1>
-        <img src="img/jpg/pp1.jpg" alt="" style="width: 10%; visibility: hidden;">
-    </div>
-    
 </body>
 </html>
