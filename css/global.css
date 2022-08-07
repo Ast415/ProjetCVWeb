@@ -89,7 +89,7 @@ a:link, a:visited,  a:hover, a:active
     height: 50px;
     margin-top: 25px;
     font-size: large;
-    transition: background-color 0.2s,;
+    transition: background-color 0.2s;
 }
 
 /*hover:quand la souris passe sur l'element ciblé, les parementre défini son affecter un direct*/
