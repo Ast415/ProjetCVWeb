@@ -8,7 +8,7 @@ body{
     width: 100%;
     font-family: 'CalibriRegular';
     margin: 0;/*supprime les espace entre les bord de l'ecrant et le reste. De base il est a 8*/
-    background-image: url(../img/jpg/pexels-marc-mueller-380769.jpg);
+    background-image: url(../src/img/jpg/pexels-marc-mueller-380769.jpg);
     background-size:cover;
     background-attachment: fixed;
     /*backdrop-filter: blur(5px);ajoute un effet de flout a la baliser ciblé*/
@@ -266,6 +266,25 @@ Voir pour exemple les deux class si dessous.
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#err1CDP{
+    text-align: center;
+}
+
+#titreErr1{
+    font-size: 50px;
+    border-bottom: black solid 0.4vh;
+}
+
+#txtErr1{
+    font-size: 25px;
+}
+
+#gifErr1{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
 }
 
 /*
