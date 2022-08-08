@@ -268,6 +268,11 @@ Voir pour exemple les deux class si dessous.
     justify-content: center;
 }
 
+#linkPDP{
+    color: white;
+    font-weight: bolder;
+}
+
 #err1CDP{
     text-align: center;
 }
