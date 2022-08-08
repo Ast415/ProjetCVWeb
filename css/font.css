@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Zelda font';
-    src: url(../font/special/Zelda.otf);
+    src: url(../src/font/special/Zelda.otf);
 }
 
 @font-face {
     font-family: 'CalibriRegular';
-    src: url(../font/calibri_font/CalibriRegular.ttf);
+    src: url(../src/font/calibri_font/CalibriRegular.ttf);
 }
 
 @font-face {
     font-family: 'Wii Shop font';
-    src: url(../font/Avenir_LT_55_Roman_Regular/Avenir_LT_55_Roman_Regular.ttf);
+    src: url(../src/font/Avenir_LT_55_Roman_Regular/Avenir_LT_55_Roman_Regular.ttf);
 }
 

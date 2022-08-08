@@ -31,15 +31,15 @@
             <div id="contact">
                 <div class="LigneContact">
                     <div class="ColoneContact">
-                        <img src="img/png/gmail.png" alt="" class="IcoContact">
+                        <img src="src/img/png/gmail.png" alt="" class="IcoContact">
                         <a href="formulaireEmail.php"><p class="TxtContact">bastienbories81pro@gmail.com</p></a>
                     </div>
                     <div class="ColoneContact">
-                        <img src="img/png/telephone.png" alt="" class="IcoContact">
+                        <img src="src/img/png/telephone.png" alt="" class="IcoContact">
                         <p class="TxtContact">N° 07 81 87 88 97</p>
                     </div>
                     <div class="ColoneContact">
-                        <img src="img/png/linkedin.png" alt="" class="IcoContact">
+                        <img src="src/img/png/linkedin.png" alt="" class="IcoContact">
                         <p class="TxtContact">Arrive bientot</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
 
             <h2>Télécharger mon CV</h2>
             <div class="AlignElement">
-                <a href="doc/pdf/BORIES Bastien - CV.pdf"><img src="img/png/cv.png" alt="" class="IcoCV"></a>
+                <a href="src/doc/pdf/BORIES Bastien - CV.pdf"><img src="src/img/png/cv.png" alt="" class="IcoCV"></a>
                 <p>Cliquez sur l'image</p>
             </div>
             
