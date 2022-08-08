@@ -28,35 +28,28 @@
             <p>Un stage en dévellopement web et/ou logiciel pour ma seconde période de stage en BTS SIO.</p>
             <h2>Me contacter</h2>
             
-            <div>
+            <div id="contact">
                 <div class="LigneContact">
                     <div class="ColoneContact">
                         <img src="img/png/gmail.png" alt="" class="IcoContact">
-                    </div>
-                    <div class="ColoneContact">
-                        <img src="img/png/linkedin.png" alt="" class="IcoContact">
+                        <a href="formulaireEmail.php"><p class="TxtContact">bastienbories81pro@gmail.com</p></a>
                     </div>
                     <div class="ColoneContact">
                         <img src="img/png/telephone.png" alt="" class="IcoContact">
-                    </div>
-                </div>
-                <div class="LigneContact">
-                    <div class="ColoneContact">
-                        <p>bastienbories81@gmail.com</p>
+                        <p class="TxtContact">N° 07 81 87 88 97</p>
                     </div>
                     <div class="ColoneContact">
-                        <p>Arrive bientot</p>
-                    </div>
-                    <div class="ColoneContact">
-                        <p>N° 07 81 87 88 97</p>
+                        <img src="img/png/linkedin.png" alt="" class="IcoContact">
+                        <p class="TxtContact">Arrive bientot</p>
                     </div>
                 </div>
             </div>
 
             <h2>Télécharger mon CV</h2>
-            <p class="AlignElement">
-                <a href="doc/pdf/BORIES Bastien - CV.pdf"><img src="img/png/cv.png" alt="" class="IcoContact"></a>
-            </p>
+            <div class="AlignElement">
+                <a href="doc/pdf/BORIES Bastien - CV.pdf"><img src="img/png/cv.png" alt="" class="IcoCV"></a>
+                <p>Cliquez sur l'image</p>
+            </div>
             
         </div>
     </main>

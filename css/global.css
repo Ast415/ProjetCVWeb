@@ -110,7 +110,6 @@ a:link, a:visited,  a:hover, a:active
 .LigneContact{
     display: flex;
     justify-content: space-evenly;
-    font-size: 2.5vh;
 }
 
 .ColoneContact{
@@ -118,11 +117,31 @@ a:link, a:visited,  a:hover, a:active
     flex-direction: column;
     position: relative;
     align-items: center;
-    width: 100%;
 }
 
 .IcoContact{
     width: 20%;
+}
+
+/*@media screen va executé la requete suivant en fonction de la taile de l'écrant*/
+@media screen and (max-width: 1024px){
+    .LigneContact {
+        flex-direction: column;
+        width: min-content;
+    }
+
+    .ColoneContact{
+        flex-direction:row;
+    }
+
+    .IcoContact{
+        margin-right: 5%;
+    }
+
+}
+
+.IcoCV{
+    width: 10%;
 }
 
 .AlignElement{
@@ -243,6 +262,11 @@ Voir pour exemple les deux class si dessous.
     justify-content: center;/*Horizontalement*/
 }
 
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*
 Site utile vue
