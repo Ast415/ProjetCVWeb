@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
+    <?php include("enTete.html")?>
     <div class="CorpDePage">
         <h2>Presentation</h2>
         <p>
@@ -18,7 +19,12 @@
             recherche un stage dans le développement de web ou de d'application mobile 
             pour la période allant du 10 janvier 2022 au 18 fevrier 2022.
         </p>
-        <a href="index.php"><h1>RETOUR</h1></a>
+        <br>
+        <h2>Mes Loisirs</h2>
+        <p>
+            Jeux video
+        </p>
     </div>
+    <?php include("piedDePage.html") ?>
 </body>
 </html>
