@@ -18,7 +18,7 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Des truc sur Scratch 2
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                     <p class="LgnProjDescription">
                         test<br>
@@ -30,7 +30,7 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Des truc en dev web
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                     <p class="LgnProjDescription">
                         test<br>
@@ -44,7 +44,7 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Des truc sur Python
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                     <p class="LgnProjDescription">
                     </p>
@@ -55,12 +55,18 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Projet de fin de premiere année de BTS SIO - mai 2022 à juin 2022
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                     <p class="LgnProjDescription">
-                        test<br>
-                        test<br>
-                        test<br>
+                        <p>
+                            Identifient : test<br>
+                            Mot de passe : test
+                            <br><br>
+                            Site dévelloper dans le cadre d'un projet de fin de ma
+                            premiere année pour evaluer nos compétance.
+                            <br><br>
+                            Site dévelloper par moi et PERRICHET Killien.
+                        </p>
                     </p>
                 </div>
             </a>
@@ -68,7 +74,7 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Serveur web et Minecraft (Jeux Video) - Juin 2022 à Aout 2022
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                 </div>
             </a>
@@ -76,7 +82,7 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Mon CV site web - Débuté en juillet 2022
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                 </div>
             </a>
@@ -84,10 +90,10 @@
                 <div class="LigneProjet">
                     <h3 class="LgnProjTitre">
                         Page test
-                        <img src="img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
+                        <img src="src/img/png/fleche-vers-le-bas.png" alt="" class="IconeFlecheBas">
                     </h3>
                     <br>
-                    <img src="img/jpg/285348.jpg" alt="">
+                    <img src="src/img/jpg/285348.jpg" alt="">
                 </div>
             </a>
 
